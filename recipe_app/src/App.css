@@ -1,12 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
 }
 .search-form {
   min-height: 10vh;
@@ -22,26 +16,25 @@
       rgba(0, 0, 0, 0.25) 200%
     );
   background-blend-mode: multiply;
-
   font-family: "Roboto";
   padding: 10px;
   border: none;
   color: #ffffffb0;
 }
 .search-bar {
-  background-color: #e4e4e1;
-  background-image: radial-gradient(
-      at top center,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(0, 0, 0, 0.03) 100%
-    ),
-    linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(143, 152, 157, 0.6) 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #ffe29f 0%,
+    #ffa99f 48%,
+    #ff719a 100%
+  );
   background-blend-mode: normal, multiply;
   border: none;
   width: 10%;
   padding: 10px;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
