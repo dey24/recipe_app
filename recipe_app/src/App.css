@@ -38,3 +38,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.chef {
+  margin-left: 45%;
+  font-family: sans-serif;
+}
